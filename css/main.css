@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 /* 
-  CSS Extending Bootstrap and styling custom elements
+  general styles
 */
 
 html {
@@ -9,4 +9,46 @@ html {
 
 body {
   font-family: 'Noto Sans', sans-serif;
+}
+
+.brand-text{
+  color: #FA6931;
+}
+
+/* 
+  Bootstrap overrides
+*/
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #F7F5F5;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FA6931;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FA6931;
+}
+
+.navbar-default .navbar-brand {
+  color: #FA6931;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background-color: #FA6931;
+  padding: 10px 35px;
+  margin: 5px 0;
+}
+
+/* 
+  Major sections
+*/
+
+#brand-hero {
+  padding:150px;
+  background-color:rgba(252, 110, 75, 0.78);
+  color: #fff;
 }
