@@ -48,7 +48,31 @@ body {
 */
 
 #brand-hero {
-  padding:150px;
+  padding: 180px 100px;
   background-color:rgba(252, 110, 75, 0.78);
   color: #fff;
+}
+
+footer {
+  background-color: #F3F0F0;
+  border-top: 10px solid #E7E1E1;
+  padding: 25px 0 90px 0;
+  margin-top:15px;
+  color:;
+}
+
+/* 
+  Buttons and links
+*/
+
+.btn-brand, a.btn-brand {
+  padding: 10px 55px;
+  border: 5px solid #fff;
+  color: #fff;
+}
+
+.btn-basic, a.btn-basic {
+  padding: 10px 55px;
+  border: 5px solid #FA6931;
+  color: #FA6931;
 }
